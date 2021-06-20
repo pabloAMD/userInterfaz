@@ -1,0 +1,39 @@
+.note {
+    text-align: center;
+    height: 50px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.form-content {
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+
+.form-control {
+    border-radius: 1.5rem;
+}
+
+.button {
+    padding: 10px 15px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #f78585;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #6741d1
+}
+
+.button:active {
+    background-color: #6129aa;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
