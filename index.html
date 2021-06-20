@@ -23,45 +23,46 @@
 
             <div class="form-content">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Cedula *" value="" id="cedula" />
-                        </div>
+                    <form action="http://localhost:3000/" method="post">
 
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Nombre *" value="" id="nombre" />
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="user_id" placeholder="Cedula *" value="" id="cedula" />
+                            </div>
+    
                         </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="user_name" placeholder="Nombre *" value="" id="nombre" />
+                            </div>
+    
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="user_apellido" placeholder="Apellido *" value="" id="apellido" />
+                            </div>
+    
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="user_direccion" placeholder="Direccion *" value="" id="direccion" />
+                            </div>
+                        </div>
+      
+                
+                        <input type="submit" value="guardar" />
+                    </form>
 
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Apellido *" value="" id="apellido" />
-                        </div>
-
-                    </div>
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Direccion *" value="" id="direccion" />
-                        </div>
-                    </div>
+                    
+                   
                 </div>
+                    
             </div>
-            <button type="button" class="button" onclick="iniciar()">Guardar</button>
+
 
 
         </div>
     </div>
-
-    <form action="http://localhost:3000/" method="post">
-        <input type="text" name="user_id" placeholder="cedula *" value="" id="cedula" />
-        <input type="text" name="user_name" placeholder="nombre *" value="" id="nombre" />
-        <input type="text" name="user_apellido" placeholder="apellido *" value="" id="apellido" />
-        <input type="text" name="user_direccion" placeholder="direccion *" value="" id="direccion" />
-
-        <input type="submit" value="guardar" />
-    </form>
 
 </body>
 
